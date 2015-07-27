@@ -3,9 +3,13 @@
 using namespace std;
 int main()
 {
+	// Declare an array with 10 elements
 	IntArray cArray(10);
+
+	// Fill the array with numbers 1 through 10
 	for (int i = 0; i < 10; i++)
-		cArray[i];
+		cArray[i] = i + 1;
+
 	// Resize the array to 8 elements
 	cArray.Resize(8);
 
@@ -23,9 +27,7 @@ int main()
 	for (int j = 0; j < cArray.GetLength(); j++)
 		cout << cArray[j] << " ";
 
-	cout << "Hello\n";
-	cout << "My all friends\n\t\n";
-	cout << "std_lib_facilities.h is ready" << endl;
+
 	keep_window_open();
 	return 0;
 }
