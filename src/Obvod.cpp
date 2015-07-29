@@ -1,5 +1,5 @@
-#include "std_lib_facilities.h"
-#include "IntArray.h"
+#include "header/IntArray.h"
+#include "header/std_lib_facilities.h"
 using namespace std;
 int main()
 {
